@@ -1,0 +1,41 @@
+body {
+    background:#f8f8f8;
+    color:black;
+    font-size:24px;
+}
+.comment {
+    text-align:center;
+    margin:10px;
+    color:cornflowerblue;
+    border:2px dashed #ccc;
+    padding:10px;
+}
+.comment .comment {
+    border:0;
+    color:#4444bb;
+}
+.comment .comment::before {
+    content:'> ';
+}
+em.commentAuthor {
+    font-size:18px;
+}
+.replyBox {
+    color:#222;
+    text-align:left;
+    border:2px dashed #aaa;
+    padding:5px;
+    margin:10px;
+    display:inline-block;
+    font-size:10px;
+}
+input.long {
+    width:300px;
+}
+.link {
+    text-decoration:underline;
+    cursor:pointer;
+}
+.link:hover {
+    text-decoration: none;
+}
