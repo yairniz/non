@@ -1,0 +1,23 @@
+{
+  "name": "non",
+  "version": "1.01",
+  "description": "Node base web server",
+  "author": "YairNiz <yairniz@gmail.com>",
+  "scripts": {
+    "start": "node non.js"
+  },
+  "main": "non.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yairniz/non"
+  },
+  "keywords": [
+    "nodejitsu",
+    "non",
+    "newbie",
+    "nails",
+    "reactjs",
+    "tutorial"
+  ],
+  "license": "MIT"
+}
